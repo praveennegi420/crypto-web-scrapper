@@ -17,7 +17,7 @@ Easy to use, handy tool.
 
   Download python 3.x version, else proceed.
 
-  git clone https://github.com/praveennegi420/crypto-web-scrapper/tree/master
+  git clone https://github.com/praveennegi420/crypto-web-scrapper/
 
   pip install bs4
 
