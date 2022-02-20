@@ -38,7 +38,7 @@ try:
     for content_indiv in  content_individual:
          rank, name, price, market24h, market7d, marketcap = content_indiv.contents[1:7]
          crypto_data= '\t   '+ rank.p.string + '\t'+ name.p.string + indent_(9- len(name.p.string)) + '\t'+ price.span.string
-         crypto_data += indent_(14-len(price.span.string)) + profit_loss(market24h) + '\t' + profit_loss(market7d) + '\t\t' + marketcap.span.string
+         crypto_data += indent_(14-len(price.span.string)) + profit_loss(market24h) + '\t' + profit_loss(market7d) + '         ' + marketcap.span.string
          print(crypto_data)
 
 except ValueError:
